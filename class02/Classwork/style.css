@@ -1,7 +1,27 @@
 h1{
-background-color= grey;
-color= black;
-font-family= arial, sans-serif;
+background-color: pink;
+color: black;
+font-family: arial, sans-serif;
+font-size: 24px;
 }
 
+p{
+	background-color: green;
+	color: white;
+	font-family: helvetica, comic sans-serif;
+	font-size: 18px;
+}
 
+ul{
+	list-style-type: none;
+	font-family: helvetica;
+	font-size: 14px;
+	color: blue;
+}
+
+ol{
+	list-style-type: none;
+	font-family: helvetica;
+	font-size: 14px;
+	color: purple;
+}
