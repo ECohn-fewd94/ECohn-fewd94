@@ -3,6 +3,7 @@ background-color: pink;
 color: black;
 font-family: arial, sans-serif;
 font-size: 24px;
+text-align: center;
 }
 
 p{
@@ -10,6 +11,7 @@ p{
 	color: white;
 	font-family: helvetica, comic sans-serif;
 	font-size: 18px;
+	text-align: center;
 }
 
 ul{
@@ -17,6 +19,7 @@ ul{
 	font-family: helvetica;
 	font-size: 14px;
 	color: blue;
+	text-align: center;
 }
 
 ol{
@@ -24,4 +27,5 @@ ol{
 	font-family: helvetica;
 	font-size: 14px;
 	color: purple;
+	text-align: center;
 }
