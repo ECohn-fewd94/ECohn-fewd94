@@ -1,0 +1,29 @@
+h1{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+div{
+	background-color: lightgrey;
+	padding: 20px;
+	
+}
+
+#p1{
+	color: purple;
+}
+
+#p2{
+	color: green;
+}
+
+#p3{
+	color: yellow;
+}
+
+p{
+	background-color: orange;
+	margin: 15px;
+	padding: 30px;
+}
