@@ -12,6 +12,10 @@
   height: 0;
 }
 
+div{
+  background-color: #f0efef
+}
+
 .clear {
   clear: both;
 }
@@ -19,11 +23,13 @@
 .alignright {
   float: right;
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  width: 25%;
 }
 
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  padding: 0 10px 10px 0;
+  width: 72%; /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -31,8 +37,8 @@
 /*******************************************/
 
 body {
-  color: #000;
-  font-size: 55px;
+  color: #000;/*
+  font-size: 55px;*/
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
 }
@@ -49,11 +55,44 @@ body {
 }
 
 header {
-
+  background-color: navy;
+  height: 75px;
 }
 
 footer {
 
+}
+
+#ad {
+  width: 80%;
+}
+
+#title{
+  float: left;
+  color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+nav {
+  float: right;
+  margin-right: 50px;
+  padding-top: 30px;
+}
+
+nav a {
+  display: inline-block;
+  padding-right: 20px;
+  color: yellow;
+}
+
+article {
+  width: 80%;
+  padding-left: 15%;
+}
+
+article img {
+  width: 100%;
 }
 
 /******************************************

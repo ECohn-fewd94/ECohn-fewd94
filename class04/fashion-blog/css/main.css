@@ -1,0 +1,21 @@
+body{
+	font-family: lato;
+}
+
+h1{
+	color: red;
+	font-weight: 300;
+	font-style: italic;
+}
+
+h2, h3{
+	color: grey;
+}
+
+.continues{
+	color: red;
+}
+
+p{
+	width: 900px;
+}
