@@ -3,7 +3,7 @@
 /*******************************************/
 
 /* Clear fix hack */
-.clearfix:after {
+.clearfix:after{
   content: ".";
   display: block;
   clear: both;
@@ -55,16 +55,23 @@ body {
 }
 
 header {
-  background-color: navy;
+  background-color: #033048;
   height: 75px;
 }
 
-footer {
+header p{
+  font-weight: bolder;
+  font-size: 40px;
+}
 
+header a{
+  font-size: 24px;
+  font-weight: normal;
 }
 
 #ad {
   width: 80%;
+  padding: 35px;
 }
 
 #title{
@@ -83,16 +90,83 @@ nav {
 nav a {
   display: inline-block;
   padding-right: 20px;
-  color: yellow;
+  color: #f9e42e;
+  font-size: 30px;
+  font-weight: 600px;
 }
 
 article {
   width: 80%;
   padding-left: 15%;
+  color: #606161;
 }
 
 article img {
   width: 100%;
+}
+
+#readme{
+  text-align: right;
+}
+
+footer{
+  background-color: #121212;
+  text-align: center;
+  padding: 30px;
+}
+
+footer p{
+  color: #f9e42e;
+  font-weight: bolder;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+footer a{
+  padding: 17px;
+}
+
+article h1{
+  font-weight: bolder;
+  font-size: 40px;
+  color: #033048;
+}
+
+article p{
+  font-size: 24px;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+aside h1{
+  font-weight: bolder;
+  font-size: 42px;
+  color: #033048;
+  padding: 7px;
+}
+
+aside{
+  text-align: left;
+}
+
+#catagories{
+  font-size: 24px
+  font-weight: lighter;
+  color: #606161;
+}
+
+#about{
+  font-weight: lighter;
+  font-size: 22px;
+  color: #606161;
+}
+
+#signup{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f9e42e;
+  padding: 20px;
 }
 
 /******************************************
