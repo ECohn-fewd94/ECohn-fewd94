@@ -57,6 +57,7 @@ body {
 header {
   background-color: #033048;
   height: 75px;
+
 }
 
 header p{
@@ -77,14 +78,14 @@ header a{
 #title{
   float: left;
   color: white;
-  padding-top: 30px;
+  padding-top: 7px;
   padding-left: 30px;
 }
 
 nav {
   float: right;
   margin-right: 50px;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 nav a {
@@ -106,6 +107,7 @@ article img {
 }
 
 #readme{
+  display: block;
   text-align: right;
 }
 
@@ -147,6 +149,7 @@ aside h1{
 
 aside{
   text-align: left;
+  padding-right: 10%;
 }
 
 #catagories{
@@ -168,6 +171,15 @@ aside{
   background-color: #f9e42e;
   padding: 20px;
 }
+
+  button {
+    background-color: navy;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
 
 /******************************************
 /* ADDITIONAL STYLES
