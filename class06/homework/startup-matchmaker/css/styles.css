@@ -38,8 +38,10 @@ nav a{
 }
 
 main{
-	background-image: url("coworking.jpg");
+	background-image: url("../img/coworking.jpg");
 	clear: both;
+	height: 500px;
+	padding-top: 50px;
 }
 
 aside{
@@ -66,5 +68,23 @@ section div{
 #strike{
 	text-decoration: line-through;
 	color: white;
+}
+
+#meet{
+	width: 500px;
+	float: right;
+	margin-right: 50px;
+	background-color: #C6C6C6;
+	padding-bottom: 20px;
+}
+
+#profile{
+	background-color: yellow;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+}
+#matchtitle #content{
+	padding: 0px;
 }
 
