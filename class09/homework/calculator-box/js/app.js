@@ -11,3 +11,11 @@
 // - .click()
 // - . text() or .html()
 // - .css()
+
+$("#out").click(function)(){
+	var out = $("#out").val("0")
+}
+
+$("#a10").click(function) () {
+	var a10 = $("#a10")
+}
