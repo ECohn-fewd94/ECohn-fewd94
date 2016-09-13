@@ -12,10 +12,68 @@
 // - . text() or .html()
 // - .css()
 
-$("#out").click(function)(){
-	var out = $("#out").val("0")
-}
+// $("#out").click(function)(){
+// 	var out = $("#out").val("0")
+// }
 
-$("#a10").click(function) () {
-	var a10 = $("#a10")
-}
+// $("#a10").click(function) () {
+// 	var a10 = $("#a10")
+// }
+
+$( document ).ready(function() {
+    console.log( "ready!" );
+
+var count = 0;
+
+$("#a10").click(function(){
+	count = count + 10;
+	$("#out").html(count);
+})
+
+$("#a20").click(function(){
+	count = count + 20;
+	$("#out").html(count);
+})
+
+$("#a30").click(function(){
+	count = count + 30;
+	$("#out").html(count);
+})
+
+$("#n10").click(function(){
+	count = count - 10;
+	$("#out").html(count);
+})
+
+$("#n20").click(function(){
+	count = count - 20;
+	$("#out").html(count);
+})
+
+$("#n30").click(function(){
+	count = count - 30;
+	$("#out").html(count);
+})
+
+$("#red").click(function(){
+	$("#out").css("background-color", "red");
+})
+
+$("#blue").click(function(){
+	$("#out").css("background-color", "blue");
+})
+
+$("#out").click(function(){
+	$("#out").css("background-color", "white");
+	$("#out").html(0);
+})
+
+
+
+
+
+
+
+
+});
+

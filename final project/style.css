@@ -1,4 +1,4 @@
-body{
+#background_img{
 	background-image: url("open-fridge.jpg");
 	background-repeat: no-repeat center center fixed;
 	background-size: 1360px;
@@ -18,17 +18,12 @@ section{
 }
 
 header{
-	color: #191970;
-	opacity: 0.9;
+	color: white;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background-color: #ffffff;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+	background-color: black;
 	text-align: center;
-	padding: 3%;
-	width: 700px;
-	margin-left: 320px;
-	text-align: center;
+	height: 200px;
+	padding-top: 10px;
 }
 
 footer{
@@ -45,11 +40,11 @@ footer{
 }
 
 button{
-	padding: 3%;
+	padding: 1%;
 	background-color: #B0C4DE;
 	color: #191970;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
