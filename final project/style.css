@@ -1,0 +1,42 @@
+body{
+	background-image: url("open-fridge.jpg");
+	background-repeat: no-repeat center center fixed;
+	background-size: 1360px;
+}
+
+section{
+	opacity: 0.9;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #191970;
+	background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+	text-align: center;
+	padding: 3%;
+	width: 700px;
+	margin-left: 320px;
+}
+
+header{
+	color: #191970;
+	opacity: 0.9;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+	text-align: center;
+	padding: 3%;
+	width: 700px;
+	margin-left: 320px;
+	text-align: center;
+}
+
+footer{
+	color: #191970;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+}
+
+
+
+
