@@ -65,7 +65,8 @@ $("#blue").click(function(){
 
 $("#out").click(function(){
 	$("#out").css("background-color", "white");
-	$("#out").html(0);
+	count = 0;
+	$("#out").html(count);
 })
 
 
