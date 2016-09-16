@@ -9,4 +9,30 @@
 
 $(document).ready(function () {
 
+var clicks = 0;
+
+$("#clickme").click(function(){
+	clicks += 1;
+	$("#click-num").html(clicks);
+	if(clicks === 5){
+		$("body").css("background-color", "red");
+
+	} else if(clicks === 10){
+		$("body").css("background-color", "green");
+
+	} else if(clicks === 15){
+		$("body").css("background-color", "blue");
+
+	}else{
+		$("body").css("background-color", "black");
+	}
+});
+
+
+
+
+
+
+
+
 })
