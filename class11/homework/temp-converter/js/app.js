@@ -1,14 +1,17 @@
 
-$(document).ready(function () {
+$(document).ready(function (){
+	console.log("yay!")
 
-	$("#f").click(function(){
-	var fair = parseInt($("#f").val())
-	if(fair===""){
-		
-	}
-
+	$("#submit").click(function(){
+		console.log("click")
+		var fair = parseInt($("#fair").val());
+		var cel = (fair - 32) / 1.8
+		$("#cel").html(cel)	
 
 	})
+
+
+})
 	
 
 
@@ -17,4 +20,3 @@ $(document).ready(function () {
 
 
 
-}
