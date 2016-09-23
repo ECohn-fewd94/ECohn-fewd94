@@ -19,4 +19,9 @@
 
 $(document).ready(function() {
 
+$("#city-type").change(function(){
+	var city = $("#city-type").val();
+	$("body").removeClass();
+	$("body").addClass(city);
+})
 });
