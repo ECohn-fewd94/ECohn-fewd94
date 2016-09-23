@@ -15,4 +15,22 @@
 
 $(document).ready(function () {
 
+	var currenVal = 0;
+	currentVal += myVal;
+
+$("#entry").sumbit(function(e){
+	var myVal = parseFloat($("#newEntry").val());
+	$("#entries").append("<tr><td></td><td>" + myVal + "</td></tr>");
+	$("#total").html("$" + currentVal)
+	e.preventDefault();
+
+})
+
+
+
+
+
+
+
+
 })
