@@ -15,14 +15,15 @@
 
 $(document).ready(function () {
 
-	var currenVal = 0;
-	currentVal += myVal;
+	var currentVal = 0;
+	
 
-$("#entry").sumbit(function(e){
+$("#entry").submit(function(event){
 	var myVal = parseFloat($("#newEntry").val());
+	currentVal += myVal;
 	$("#entries").append("<tr><td></td><td>" + myVal + "</td></tr>");
-	$("#total").html("$" + currentVal)
-	e.preventDefault();
+	$("#total").html("$" + currentVal);
+	event.preventDefault();
 
 })
 
