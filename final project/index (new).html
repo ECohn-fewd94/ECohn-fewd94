@@ -2,90 +2,48 @@
 <html>
 <head>
 	<title>
+	To-Do
 	</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<header class="background_img">
-<h1>What Should You Make For Dinner?</h1>
-<h4>Take The Quiz Below To Find Out The Best Recipe Based On What You Already Have In Your Fridge!</h4>
-<button>Click To Begin</button>	
-
-</header>
-
 <div id="background_img">
 
-<section>
-<h2>Question 1: Which of the Below Proteins Do You Have In Your Fridge?:</h2>
-<ol>
-<li>Chicken</li>
-<li>Beef</li>
-<li>Turkey</li>
-<li>Pork</li>
-<li>None of the above</li>
-</ol>
-<button>Next Question</button>
-</section>
+<header class="background_img">
+<h1>My To-Do List</h1>
+</header>
 
 <section>
-<h2>Which Of The Below Produce Do You Have In Your Fridge?:</h2>
-<ol>
-<li>Potatoes</li>
-<li>Brocolli</li>
-<li>Tomatoes</li>
-<li>Onions</li>
-<li>None of the above</li>
-</ol>
-<button>Next Question</button>
+	<h2>Add Your Tasks Below:</h2>
+	<p class="input">Task:</p>
+	<input class="input" type=text id="task"/>
+	<p id="category" class= "input">Category:</p>
+	<select class="input">
+	<option value="Work">Work</option>
+	<option value="Personal">Personal</option>
+	<option value="Miscellaneous">Miscellaneous</option>
+	</select>
+	<button id="addtask" class="input">Add Task</button>
 </section>
 
-<section>
-<h2>Which Of The Below Grains Do You Have In Your Fridge?:</h2>
-<ol>
-<li>Pasta</li>
-<li>Rice</li>
-<li>Quinoa</li>
-<li>Bread</li>
-<li>None of the above</li>
-</ol>
-<button>Next Question</button>
-</section>
-
-<section>
-<h2>Question 4: Which Of The Below Dairy Products Do You Have In Your Fridge?:</h2>
-<ol>
-<li>Cheese</li>
-<li>Milk</li>
-<li>Eggs</li>
-<li>Butter</li>
-<li>None of the above</li>
-</ol>
-<button>Next Question</button>
-</section>
-
-<section>
-<h2>Question 5: Which Of The Below Sauces Do You Have In Your Fridge?:</h2>
-<ol>
-<li>Oil</li>
-<li>Mustard</li>
-<li>Barbeque Sauce</li>
-<li>Vinegar</li>
-<li>None of the above</li>
-</ol>
-<button>Submit</button>
-</section>
-
+<div class="to_do">
+<h2>Work To Do's:</h2>	
 </div>
 
+<div class="to_do">
+<h2>Personal To Do's:</h2>	
+</div>
+
+<div class="to_do">
+<h2>Miscellaneous To Do's:</h2>	
+</div>
+
+
 <FOOTER>
-<H1>Based On Your Above Choices, You Should Make:</H1>
-
 </FOOTER>
 
-
-
-</FOOTER>
+</div>
 
 </body>
 </html>
