@@ -24,6 +24,7 @@ $("#entry").submit(function(event){
 	$("#entries").append("<tr><td></td><td>" + myVal + "</td></tr>");
 	$("#total").html("$" + currentVal);
 	event.preventDefault();
+	$("#newEntry").val(" ");
 
 })
 
