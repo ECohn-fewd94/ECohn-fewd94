@@ -15,6 +15,10 @@ h1 {
 	line-height: 1;
 }
 
+#page-header h1{
+	padding-bottom: 20px;
+}
+
 h2 {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -150,6 +154,11 @@ p {
 
 .tout .button {
 	background: #C6C6C6;
+	margin-right: 5%;
+}
+
+.tout p{
+	padding-right: 5%;
 }
 
 footer {
@@ -157,3 +166,58 @@ footer {
 	color: white;
 	padding: 2% 3%;
 }
+
+#mobile-nav{
+	display: none;
+	background-color: black;
+}
+
+#mobile-nav a{
+	text-decoration: none;
+	color: white;
+}
+
+#burger{
+	display: none;
+}
+
+@media (max-width: 936px){
+#desktop-nav{
+	display: none;
+}
+
+#mobile-nav{
+	display: block;
+	text-align: right;
+}
+
+#burger{
+	display: inline-block;
+	float: right;
+	padding-top: 20px;	
+}
+
+#idea{
+		display: none;
+}
+
+.tout{
+	width: 100%;
+	font-size: .85em;
+}
+
+.blurb{
+	width: 75%;
+	font-size: 0.85em;
+}
+
+.tagline{
+	font-size: .85em;
+}
+
+.banner{
+	padding: 10% 3%;
+}
+
+}	
+

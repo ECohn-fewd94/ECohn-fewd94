@@ -1,5 +1,5 @@
 #background_img{
-	background-image: url("notepad.jpeg");
+	background-image: url("FengShui_Feat.jpeg");
 	min-height: 100%;
   	min-width: 1024px;
   	width: 100%;
@@ -59,13 +59,23 @@ float: left;
 
 .to_do{
 	display: inline-block;
-	color: white;
+	color: rgba(105, 105, 105, .75);
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	width: 415px;
+	height: 500px;
 	text-align: center;
 }
 
 #body{
 	margin: 20px;		
 }
+
+#personal{
+	border-right: solid rgba(105, 105, 105, .75) 3px;
+	border-left: solid rgba(105, 105, 105, .75) 3px;
+}	
+	
+
+
+
 
